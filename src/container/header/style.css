@@ -1,0 +1,51 @@
+.logoImg img{
+    width: 200px;
+    border-radius: 20px;
+}
+.head{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.navbar ul{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    list-style: none;
+    grid-gap: 10px;
+}
+.navbar ul a:hover{
+    color: white;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+}
+
+.header-main{
+    padding: 10px 0;
+    height: 130px;
+    background-color: black;
+}
+.login-out{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.login-in{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.head{
+    position: fixed;
+}
+.login-token {
+    display: none;
+}
+.login-in-out {
+
+    margin-left: 1200px;
+    position: absolute;
+    display: none;
+
+}
+.login-in-out button{
+    margin: 0 50px
+}

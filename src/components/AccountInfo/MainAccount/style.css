@@ -1,0 +1,99 @@
+.mainAccount{
+    width: 100%;
+    min-height: 900px;
+    background-color: slategray;
+}
+.mainMsg h1{
+    padding: 50px 0;
+    min-height: 100px;
+    background-color: silver;
+}
+.displayAccount{
+    margin: 0 20px;
+    text-align: center;
+    min-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.displayAccountDashBoard{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.mainMsg h1{
+    background-color: black;
+    color: red;
+    position: relative;
+    animation: dashMe 1s infinite;
+}
+@keyframes dashMe {
+    10%{
+        color: blue;
+        background-color: red;
+        font-weight: bold;
+        letter-spacing: initial;
+
+    }
+    20%{
+        color: green;
+        background-color: yellow;
+        font-weight: bold;
+        letter-spacing: inherit;
+        
+    }
+    30%{
+        color: red;
+        background-color: white;
+        font-weight: bold;
+        letter-spacing: initial;
+        
+    }
+    40%{
+        color: gold;
+        background-color: blue;
+        font-weight: bold;
+        letter-spacing: initial;
+        
+        letter-spacing: 8px;
+
+    }
+    50%{
+        color:  black;
+        background-color: green;
+        font-weight: bold;
+        letter-spacing: inherit;
+        
+    }
+    50%{
+        color:  black;
+        background-color:black;
+        font-weight: bold;
+        letter-spacing: inherit;
+        
+        letter-spacing: 8px;
+        
+    }
+    60%{
+        color:  chartreuse;
+        background-color:black;
+        font-weight: bold;
+        letter-spacing: inherit;
+        
+    }
+    50%{
+        color:  black;
+        background-color:black;
+        font-weight: bold;
+        letter-spacing: inherit;
+        letter-spacing: 8px;
+        
+    }
+}
+
+@media screen and (max-width: 360px){
+    .mainMsg h1{
+        min-width: 900px;
+        min-height: 100px;
+        background-color: silver;
+    }
+}

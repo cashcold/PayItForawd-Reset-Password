@@ -1,0 +1,25 @@
+.accountDetails{
+    width: 75%;
+    min-height: 700px;
+    background-color: black;
+}
+.accountDetails button{
+    width: 500px;
+    margin: 0 70px;
+}
+.accountDetails button{
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+@media screen and (max-width: 360px){
+    .accountDetails button{
+        width: 300px;
+        margin-left: -30px;
+    }
+    .accountDetails h4{
+        font-size: 15px;
+    }
+}

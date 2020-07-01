@@ -1,0 +1,38 @@
+.referral{
+    padding: 30px 0;
+    width: 100%;
+    background-color: #edeaed;
+}
+.affilateWithImg{
+    padding: 30px 0;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 100px;
+}
+.referralMsg{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 100px;
+    margin: 30px 0;
+    height: 300px;
+}
+.referralMsg h5{
+    width: 300px;
+}
+.affilate{
+    display: grid;
+}
+.affilateWithImg{
+    margin: 0 300px;
+}
+.affilate{
+    margin: 0 300px;
+}
+.affilateMsg{
+    margin: 0 300px;
+}
+@media screen and (max-width: 360px){
+    .affilateWithImg img{
+        width: 10px;
+    }
+}

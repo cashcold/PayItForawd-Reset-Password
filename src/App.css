@@ -1,0 +1,9 @@
+.wrapper{
+    display: grid;
+    text-align: center;
+    box-sizing: border-box;
+   
+}
+.socail-Link{
+    background-color: #edeaed;
+}

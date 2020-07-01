@@ -1,0 +1,41 @@
+.investNow{
+    padding: 50px 0;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 50px;
+}
+.PlanSet{
+    width: 500px;
+    height: 600px;
+    line-height: 4.0em;
+    background-color: darkorange;
+    color: white;
+    margin: 0 100px;
+}
+
+.PlanSets{
+    color: black;
+    background-color: #edeaed;
+    padding: 30px 0;
+}
+.investmentPlanSet{
+    padding-bottom: 150px;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 360px){
+    .investNow{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .PlanSet{
+        margin: 0 200px;
+    }
+}

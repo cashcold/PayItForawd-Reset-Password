@@ -1,0 +1,109 @@
+.accountProfile{
+    min-width: 120%;
+    min-height: 700px;
+    margin-left: -200px;
+}
+.accountFrist{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.accountFrist img{
+    width: 400px;
+    height: 400px;
+    border-radius: 50px;
+}
+.accountFirstMsg{
+    margin-left: -700px;
+}
+.accountFirstMsg hr{
+    width: 300px;
+}
+.accountInfoMoney{
+    margin: 20px 0;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.accountInfoMoney button{
+   margin: 30px 0;
+    width: 400px;
+    height: 100px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+   
+}
+.btnMsg button{
+    width: 400px;
+    height: 80px;
+}
+.widthMsg{
+    margin: 30px 0;
+}
+.widthMsg h3{
+    margin: 30px 0;
+}
+.accountLastMsg
+{background-color: green;
+    height: 300px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.activeWithdraw button{
+    width: 300px;
+    height: 80px;
+}
+.activeWithdraw ul li{
+    padding: 30px 0;
+    list-style: none;
+}
+.dashWelcomeText, .dashWelcomeText1{
+    position: relative;
+    animation: welcomedash 3s infinite;
+}
+
+@keyframes welcomedash{
+    10%{
+        color: gold;
+        margin: 0 20px;
+        
+        letter-spacing: 2px;
+    }
+    20%{
+        color: dimgrey;
+        margin: 0 20px;
+        
+        letter-spacing: 2px;
+    }
+    30%{
+        color: dimgrey;
+        margin: 0px 50px;
+        letter-spacing: 2px;
+    }
+}
+@media screen and (max-width: 360px){
+    .accountFrist img{
+        width: 150px;
+        margin-left: 200px;
+    }
+    .accountFirstMsg{
+        margin-left: -500px;
+        width: 900px;
+    }
+    .accountProfile{
+        min-width: 1600px;
+    }
+    .accountInfoMoney button{
+        margin-left: 120px;
+        margin-top: 50px;
+    }
+    .accountInfoMoney{
+        margin: 0 80px;
+    }
+    .accountLastMsg{
+        margin-left: 150px;
+        background-color: green;
+        width: 1450px;
+        height: 300px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}

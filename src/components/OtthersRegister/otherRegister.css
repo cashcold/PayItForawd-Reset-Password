@@ -1,0 +1,125 @@
+input{
+    width: 250px;
+    border-radius: 5px;
+    padding: 10px;
+}
+input.error{
+    border-color: white;
+    animation: inputBack 1s infinite;
+    background-color: red;
+    color: black;
+    font-weight: bolder;
+}
+.inputFeedBack{
+    color: gold;
+    animation: inputBack 3s infinite;
+}
+.memberNow h1{
+    letter-spacing: 5px;
+    color: green;
+    position: relative;
+    animation: becomeMember 3s infinite;
+}
+
+@keyframes becomeMember{
+    0%{
+       color: green;
+    }
+    20%{
+        color: red;
+        letter-spacing: 10px;
+     }
+     30%{
+        color: yellow;
+        letter-spacing: 10px;
+     }
+     40%{
+        color: blue;
+        letter-spacing: 10px;
+     }
+     50%{
+        color: pink;
+        letter-spacing: 10px;
+     }
+     60%{
+        color: tomato;
+        letter-spacing: 10px;
+     }
+}
+
+body{
+    background-color: #edeaed;
+}
+
+.form-main{
+    text-align: center;
+    min-height: 700px;
+    color: white;
+    background: url('../../pic/aerial-photography-of-cityscape-during-night-1738997.jpg');
+    background-size: cover;
+    background-position: center;
+  
+}
+.form-a form{
+    margin: 40px 550px;
+}
+.form-a form tr label{
+    color: red;
+    margin: 30px 20px;
+    font-size: 30px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes inputBack {
+    10%{
+        letter-spacing: 1px;
+        font-weight: bolder;
+        
+
+    }
+    100%{
+        letter-spacing: 1px;
+        font-weight: bolder;
+    }
+    200%{
+        letter-spacing: 1px;
+        font-weight: bolder;
+    }
+    300%{
+        letter-spacing: 1px;
+        font-weight: bolder;
+    }
+    400%{
+        letter-spacing: 1px;
+        font-weight: bolder;
+    }
+}
+
+
+
+@media screen and (max-width: 360px){
+    .form-main{
+        width: 900px;
+        text-align: center;
+        min-height: 700px;
+        color: white;
+        background: url('../../pic/aerial-photography-of-cityscape-during-night-1738997.jpg');
+        background-size: cover;
+        background-position: center;
+      
+    }
+    .form-a form{
+        margin: 40px 150px;
+    }
+    
+}

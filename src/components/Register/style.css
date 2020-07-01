@@ -1,0 +1,51 @@
+
+.info{
+    width: 800px;
+    height: 500px;
+    margin-left: 200px;
+    
+}
+.register{
+    margin: 40px 0;
+}
+.info table label{
+    margin: 20px 20px;
+}
+.info table tr td{
+    margin: 80px 10px;
+}
+.form form {
+    margin: 0 150px;
+}
+.form img{
+    margin: 30px 0;
+}
+.accountInfo {
+    background-color: #333;
+    color: white;
+    font-weight: bold;
+}
+.paymentAddress{
+    padding: 50px 0;
+    background-color: #453;
+    color: white;
+    font-weight: bold;
+}
+.comfirmMation{
+    padding: 30px 0;
+    height: 220px;
+    background-color: springgreen;
+}
+form input{
+    width: 300px;
+    border-radius: 30px;
+}
+.info table{
+    margin: 0 200px;
+}
+.form table{
+    margin: 0 200px;
+}
+.main-form{
+    padding-bottom: 4px;
+}

@@ -1,0 +1,28 @@
+.Login-app{
+    background-color: #edeaed;
+    padding: 20px 0;
+    height: 400px;
+    width: 100%;
+    margin:  0 auto;
+}
+
+.loginNow input {
+    width: 300px;
+    border-radius: 30px;
+}
+
+
+.loginNow {
+    margin: 20px 280px;
+}
+.loginOthers{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.loginNow table tr td label{
+    margin: 0 400px;
+}
+.login{
+    padding-bottom: 150px;
+}

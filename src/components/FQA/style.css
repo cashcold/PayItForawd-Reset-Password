@@ -1,0 +1,14 @@
+.FQA{
+    color: white;
+    background-color: black;
+    min-height: 900px;
+    background-position: center;
+    background-size: cover;
+}
+.terms h3{
+    color: red;
+}
+.terms{
+    width: 600px;
+    margin: 0 550px;
+}

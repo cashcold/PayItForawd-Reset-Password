@@ -1,0 +1,142 @@
+.aboutUs{
+    padding: 20px 0;
+    height: 400px;
+    background-color: indigo;
+}
+.aboutUs h1{
+    color: yellow;
+}
+.aboutUs{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.chatTitle h1{
+    color: yellow;
+}
+.extre{
+    margin: 10px 0;
+    background-color: indigo;
+    color: white;
+    min-height: 400px;
+}
+.aboutPayitBoth{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.platfrom {
+    width: 700px;
+}
+.resocess{
+    width: 700px;
+}
+.platfrom img{
+    margin-top: 40px;
+}
+.MsgOut img{
+    padding: 20px 0;
+}
+.features{
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.432);
+}   
+.MsgOut{
+    margin-top: 100px;
+}
+.headFeatures h1{
+    font-weight: 70px;
+    margin-top: 80px;
+}
+.main-features{
+    margin: 30px 0;
+}
+
+ .headmsg h2 {
+    font-size: 80px;
+}
+.headmsg h2 .MsgOut{
+    font-size: 80px;
+}
+.features{
+    background-image: url('../../src/pic/shridhar-gupta-dZxQn4VEv2M-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+    color: white;
+    font-size: bold;
+    font-size: 80px;
+}
+.howTostart{
+   min-height:   500px;
+   text-align: center;
+   background-color: blanchedalmond;
+}
+.nowstart{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.menuText{
+    min-height: 400px;
+}
+.menuText{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.startMenu{
+    background-color: chartreuse;
+    min-height: 300px;
+}
+.menu h1{
+    padding: 20px 0 ;
+}
+.investmentPlane{
+    background-color: #edeaed;
+}
+.homeInvest{
+    margin-top: 30px;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(4,1fr);
+}
+.plan{
+    margin-top: 40px;
+    background-color: orange;
+    color: white;
+    width: 400px;
+    min-height: 400px;
+    border: 1px solid black;
+}
+.investmentPlane{
+    padding: 30px 0;
+}
+.paymentList{
+    margin: 30px 0;
+}
+.paymentList{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.paymentMethod{
+    background-color: rgba(0, 0, 0, 0.795);
+    color: white;
+}
+.plan button{
+    margin: 40px 0;
+}
+.chatProgram{
+    padding-bottom: 50px;
+    font-weight: bold;
+}
+.chatProgram h4{
+    font-weight: bold;
+    font-size: 50px;
+}
+
+
+@media screen and ( max-width: 360px){
+    .homeInvest{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+    }
+}
